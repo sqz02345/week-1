@@ -4,7 +4,7 @@ jobs:
   simple-job:
     runs-on: ubuntu-latest
     steps:
-    - run: simple-job
-      shell: bash
-    
+      - name: simple hello world
+        run: hello-world
+        shell: bash
       
