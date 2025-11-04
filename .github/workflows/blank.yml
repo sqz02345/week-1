@@ -4,4 +4,7 @@ jobs:
   simple-job:
     runs-on: ubuntu-latest
     steps:
-    - run: simple job
+    - run: simple-job
+      shell: bash
+    
+      
