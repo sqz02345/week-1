@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: simple hello world
-        run: hello-world
+        run: echo "Hello World"
         shell: bash
       
