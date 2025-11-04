@@ -1,9 +1,7 @@
-
-name: day1-greeting.yml
-on: push
-run-name: ubuntu-latest
-  jobs:
-    test:
-      runs-on: ubuntu-latest
-      steps:
-      - run: echo Hello world!
+name: week1-of-learning
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+    - run: simple job
