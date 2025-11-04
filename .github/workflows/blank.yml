@@ -1,0 +1,7 @@
+
+name: day1-greeting.yml
+on: push
+runs-on: ubuntu-latest
+jobs:
+  steps:  
+    -  run: "this is week1"
