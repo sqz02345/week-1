@@ -1,7 +1,9 @@
 
 name: day1-greeting.yml
 on: push
-runs-on: ubuntu-latest
-jobs:
-  steps:  
-    -  run: "this is week1"
+run-name: ubuntu-latest
+  jobs:
+    test:
+      runs-on: ubuntu-latest
+      steps:
+      - run: echo Hello world!
