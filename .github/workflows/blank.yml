@@ -1,7 +1,7 @@
 name: week1-of-learning
 on: [push]
 jobs:
-  check-bats-version:
+  simple-job:
     runs-on: ubuntu-latest
     steps:
     - run: simple job
